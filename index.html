@@ -1,9 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <title>Veebee - Discord Bot</title>
     <style>
+        @font-face {
+            font-family: 'Mona Sans';
+            src: url('/assets/fonts/MonaSans-SemiBold.woff2') format('woff2');
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Monaspace';
+            src: url('/assets/fonts/MonaspaceNeon-Medium.woff2') format('woff2');
+            font-weight: 500;
+            font-style: normal;
+        }
+
         html {
             color-scheme: light dark;
         }
@@ -11,16 +26,30 @@
         body {
             width: 35em;
             margin: 0 auto;
-            font-family: Tahoma, Verdana, Arial, sans-serif;
+            font-family: 'Monaspace', monospace;
+            font-weight: 500;
+            line-height: 1.6;
         }
 
+        h1,
         h2,
         h3 {
+            font-family: 'Mona Sans', sans-serif;
+            font-weight: 600;
             margin-top: 1.5em;
         }
 
         ul {
             padding-left: 1.2em;
+        }
+
+        a {
+            color: #ff91a4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
